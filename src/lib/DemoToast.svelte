@@ -109,4 +109,19 @@
   .toast.success {
     background-color: #0070f3;
   }
+
+  .toast.custom {
+    animation: 3s ease 0s infinite normal none running MoveBG;
+
+    background: linear-gradient(
+        270deg,
+        rgb(255, 0, 0),
+        rgb(255, 245, 0),
+        rgb(0, 255, 5),
+        rgb(0, 246, 255),
+        rgb(0, 10, 255),
+        rgb(226, 0, 255)
+      )
+      0% 0% / 600% 600%;
+  }
 </style>

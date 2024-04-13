@@ -1,5 +1,5 @@
 <script>
-  import Toast, { toast } from "./lib/Toast.svelte";
+  import Toast, { toast } from "./lib/DemoToast.svelte";
 </script>
 
 <div class="center">
