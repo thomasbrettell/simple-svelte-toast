@@ -115,20 +115,20 @@
 
     <button
       on:click={() => {
-        toast.show("center - bottom");
-      }}
-    >
-      center - bottom
-    </button>
-
-    <button
-      on:click={() => {
         toast.show("left - bottom", {
           x: "left",
         });
       }}
     >
       left - bottom
+    </button>
+
+    <button
+      on:click={() => {
+        toast.show("center - bottom");
+      }}
+    >
+      center - bottom
     </button>
 
     <button
